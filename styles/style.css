@@ -1,0 +1,140 @@
+.container {
+  padding: 20px;
+  }
+  
+  .about {
+      display: flex;
+      justify-content: flex-end;
+      font-size: xx-large;
+  }
+
+  .people {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: -30.5em;
+    line-height: 25px;
+  }
+
+  a {
+    font-size: 35px;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+  }
+
+  .lettering {
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    width: 100%;
+    line-height: 98px;
+    font-family: Helvetica, sans-serif;
+    font-weight: medium;
+    font-size: 75px;
+  }
+
+
+  #H {
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  #O {
+
+  display: flex;
+  justify-content: flex-end;
+  width: 17%;
+  }
+
+  #P {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+  }
+
+  #S {
+    display: flex;
+    justify-content: flex-end;
+    width: 43%;
+  }
+
+  #C {
+    display: flex;
+    justify-content: flex-end;
+    width: 56%;
+ }
+
+  #O2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 68%;
+  }
+
+  #T{
+    display: flex;
+    justify-content: flex-end;
+    width: 79%;
+  }
+
+  #C2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+ }
+
+  #H2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .name {
+    display: flex;
+    justify-content: flex-ыефке;
+    position: fixed;
+    font-size: xx-large;
+    width: 23%;
+    top: 20px;
+    left:20px;
+  }
+
+
+  .project {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    font-size: xx-large;
+    font-style: italic;
+    width: 23%;
+    top: 20px;
+    right: 20px;
+  }
+
+img { 
+display: flex;
+flex-direction: column;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 20%;
+margin-bottom: 20%;
+width: 75%;
+}
+
+.back {
+display: flex;
+justify-content: flex-start;
+position: fixed;
+width: 20%;
+bottom: 0px;
+left: 0px;
+
+}
+
+
+
+
+  
+
+
+  
+
