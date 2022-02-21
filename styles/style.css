@@ -127,8 +127,19 @@ position: fixed;
 width: 20%;
 bottom: 0px;
 left: 0px;
-
+margin-bottom: -50px;
 }
+
+@media (max-width: 600px) {
+  .back {
+    margin-bottom: 0px;
+    width: 20vw;
+  }
+}
+
+/* .back-img{
+  align-self:flex-end;
+} */
 
 
 
