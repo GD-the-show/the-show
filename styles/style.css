@@ -1,96 +1,108 @@
+@font-face {
+  font-family: "semibold";
+  src: url("../assets/ProximaNova-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "prit";
+  src: url("../assets/ProximaNova-RegularIt.ttf");
+}
+
 .container {
-  padding: 20px;
+  /* padding: 20px; */
+  width: 10000px;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: hidden;
   }
   
   .about {
-      display: flex;
-      justify-content: flex-end;
-      font-size: xx-large;
+    /* display: flex;
+    justify-content: flex-end; */
+    font-family: "prit";
+    font-size: xx-large;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: #fff;
+  }
+
+  @media (max-width: 900px) {
+    .about {
+      left: 20px;
+    }    
+  }
+
+  .divider {
+    width: 100%;
+    top: 60px;
+    position: fixed;
+    height: 2px;
+    background: black;
+  }
+
+  .divider2 {
+    height: 100%;
+    position: fixed;
+    height: 2px;
+    background: black;
+    margin-left: 350px;
   }
 
   .people {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    margin-top: -30.5em;
-    line-height: 25px;
+    line-height: 35px;
+    margin-top: 2px;
+    padding-left: 20px;
+    position: fixed;
+    top: 60px;
+    width: 380px;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #fff;
+    outline:solid 2px black;
+  }
+
+  .SashaA:hover {
+    position: relative;
+  }
+
+  .SashaA:hover:after {
+    content: url(.imgs/Julianna-Akopyan---time_dzhulianna_akopian.jpg); /* no need for qoutes */
+    display: block;
+    position: absolute;
+    left: 123px; /* change this value to one that suits you */
+    top: 56px; /* change this value to one that suits you */
+  }
+
+  .main{
+    margin: 60px 0 0 380px;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .logo{
+    display: flex;
+    width: 150%;
+  }
+
+  .whitespace {
+    width: 100%;
+    height: 20px;
   }
 
   a {
     font-size: 35px;
-    font-style: italic;
+    font-family: "semibold";
     color: black;
     text-decoration: none;
   }
 
-  .lettering {
-    flex-wrap: wrap;
-    letter-spacing: 2px;
-    width: 100%;
-    line-height: 98px;
-    font-family: Helvetica, sans-serif;
-    font-weight: medium;
-    font-size: 75px;
-  }
-
-
-  #H {
-    display: flex;
-    justify-content: flex-start;
-
-  }
-
-  #O {
-
-  display: flex;
-  justify-content: flex-end;
-  width: 17%;
-  }
-
-  #P {
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
-  }
-
-  #S {
-    display: flex;
-    justify-content: flex-end;
-    width: 43%;
-  }
-
-  #C {
-    display: flex;
-    justify-content: flex-end;
-    width: 56%;
- }
-
-  #O2 {
-    display: flex;
-    justify-content: flex-end;
-    width: 68%;
-  }
-
-  #T{
-    display: flex;
-    justify-content: flex-end;
-    width: 79%;
-  }
-
-  #C2 {
-    display: flex;
-    justify-content: flex-end;
-    width: 90%;
- }
-
-  #H2 {
-    display: flex;
-    justify-content: flex-end;
-  }
-
   .name {
     display: flex;
-    justify-content: flex-ыефке;
+    justify-content: flex-start;
     position: fixed;
     font-size: xx-large;
     width: 23%;
@@ -104,13 +116,13 @@
     justify-content: flex-end;
     position: fixed;
     font-size: xx-large;
-    font-style: italic;
+    font-family: "semibold";
     width: 23%;
     top: 20px;
     right: 20px;
   }
 
-img { 
+/* img { 
 display: flex;
 flex-direction: column;
 margin-left: 15%;
@@ -118,7 +130,7 @@ margin-right: 15%;
 margin-top: 20%;
 margin-bottom: 20%;
 width: 75%;
-}
+} */
 
 .back {
 display: flex;
@@ -136,10 +148,6 @@ margin-bottom: -50px;
     width: 20vw;
   }
 }
-
-/* .back-img{
-  align-self:flex-end;
-} */
 
 
 
