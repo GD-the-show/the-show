@@ -105,34 +105,77 @@
     }
   }
 
-  /* .SashaA:hover {
-    position: relative;
-  }
-
-  .SashaA:hover:after {
-    content: url(.imgs/Julianna-Akopyan---time_dzhulianna_akopian.jpg); 
-    display: block;
-    position: absolute;
-    left: 123px; 
-    top: 56px; 
-  } */
-
   .main{
-    margin: 60px 0 0 380px;
+    margin: 50px 0 0 380px;
     padding: 20px;
     width: 100vw;
     height: 100vh;
   }
 
-  .logo{
+  .logoC{
     display: flex;
+    flex-direction: row;
+  }
+
+  .logo{
     width: 150vw;
   }
 
-  .press{
-    /* display: block; */
-    background-color: black;
+  @media (max-width: 900px) {
+    .logo{
+      margin-top: 30px;
+      width: 250vw;
+    }
   }
+
+  .pressC{
+    position: fixed;
+    margin: 20px;
+    display: none;
+    /* height: 100vh; */
+    background-color:black;
+  }
+
+  @media (max-width: 900px) {
+    .pressC{
+      margin-left: -400px;
+      top: 95px;
+      width: 340px;
+      font-size: 10px;
+      line-height: 15px;
+      overflow-y: scroll;
+    }
+  }
+
+  .ru {
+    padding: 20px;
+    font-family: "prit";
+    color: #fff;
+    font-size: xx-large;
+  }
+
+  @media (max-width: 900px) {
+    .ru{
+      font-size: 15px;
+      line-height: 15px;
+    }
+  }
+
+  .eng {
+    padding: 20px;
+    font-family: "semibold";
+    color: #fff;
+    font-size: xx-large;
+    text-align: end;
+  }
+
+  @media (max-width: 900px) {
+    .eng{
+      font-size: 15px;
+      line-height: 15px;
+    }
+  }
+
 
   .whitespace {
     width: 100%;
@@ -165,6 +208,7 @@
     width: 23%;
     top: 20px;
     right: 20px;
+    text-align: end;
   }
 
 .gallery{
@@ -188,19 +232,21 @@ width: 75%;
 } */
 
 .back {
-display: flex;
-justify-content: flex-start;
-position: fixed;
-width: 15%;
-bottom: 20px;
-left: 0px;
-margin-bottom: -50px;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  margin-bottom: -30px;
+}
+
+.back-img {
+  width: 200px;
 }
 
 @media (max-width: 600px) {
-  .back {
-    margin-bottom: 0px;
-    width: 20vw;
+  .back-img {
+    width: 150px;
   }
 }
 
