@@ -15,6 +15,12 @@
   background-color: #fff;
   overflow-y: hidden;
   }
+
+  @media (max-width: 900px) {
+    .container {
+      height: auto;
+    }    
+  }
   
   .about {
     /* display: flex;
