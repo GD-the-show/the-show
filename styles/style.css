@@ -53,6 +53,7 @@
       position: fixed;
       left: 20px;
       top: 10px;
+      cursor: help ;
     }    
   }
 
@@ -100,7 +101,7 @@
   @media (max-width: 900px) {
     .people{
       top: 115px;
-      width: 320px;
+      width: 380px;
       font-size: 25px;
       line-height: 30px;
     }
@@ -141,7 +142,7 @@
     .pressC{
       margin-left: -400px;
       top: 95px;
-      width: 340px;
+      width: 400px;
       font-size: 10px;
       line-height: 15px;
       height: 100vh;
