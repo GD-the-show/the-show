@@ -32,6 +32,7 @@
     right: 20px;
     top: 20px;
     background-color: #fff;
+    cursor: help ;
   }
 
   .about1 {
@@ -197,6 +198,7 @@
     width: 23%;
     top: 20px;
     left:20px;
+    cursor: default;
   }
 
 
@@ -210,6 +212,7 @@
     top: 20px;
     right: 20px;
     text-align: end;
+    cursor: default;
   }
 
 .gallery{
