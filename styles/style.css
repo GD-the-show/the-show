@@ -154,7 +154,7 @@
     padding: 20px;
     font-family: "prit";
     color: #fff;
-    font-size: xx-large;
+    font-size: 2vw;
   }
 
   @media (max-width: 900px) {
@@ -168,7 +168,7 @@
     padding: 20px;
     font-family: "semibold";
     color: #fff;
-    font-size: xx-large;
+    font-size: 2vw;
     text-align: end;
   }
 
