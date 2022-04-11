@@ -8,12 +8,33 @@
   src: url("../assets/ProximaNova-RegularIt.ttf");
 }
 
-.container {
-  /* padding: 20px; */
-  width: 10000px;
-  height: 100vh;
-  background-color: #fff;
-  overflow-y: hidden;
+@font-face {
+  font-family: "pr";
+  src: url("../assets/ProximaNova-Regular.ttf");
+}
+
+.container_Johanna {
+    /* padding: 20px; */
+    width: 6500px;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: hidden;
+  }
+
+  .container_Nazira {
+    /* padding: 20px; */
+    width: 8000px;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: hidden;
+  }
+
+  .container {
+    /* padding: 20px; */
+    width: 5000px;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: hidden;
   }
 
   @media (max-width: 900px) {
@@ -31,7 +52,7 @@
     position: fixed;
     right: 20px;
     top: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     cursor: help ;
   }
 
@@ -98,6 +119,24 @@
     text-align: end;
   }
 
+  .aboutProject {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    top: 60px;
+    width: 380px;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #fff;
+    outline:solid 2px black;
+    font-size: 20px;
+    font-family: "semibold";
+  }
+
   @media (max-width: 900px) {
     .people{
       top: 115px;
@@ -108,7 +147,7 @@
   }
 
   .main{
-    margin: 50px 0 0 380px;
+    margin: 40px 0 0 400px;
     padding: 20px;
     width: 100vw;
     height: 100vh;
@@ -121,6 +160,9 @@
 
   .logo{
     width: 150vw;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 240px;
   }
 
   @media (max-width: 900px) {
@@ -143,18 +185,45 @@
       margin-left: -400px;
       top: 95px;
       width: 400px;
-      font-size: 10px;
+      font-size: 20px;
       line-height: 15px;
       height: 100vh;
       /* overflow-y: scroll; */
     }
   }
 
-  .ru {
-    padding: 20px;
+  .ruP {
     font-family: "prit";
+    color:#fff;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    margin: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .ruP{
+      font-size: 17px;
+      line-height: 17px;
+    }
+  }
+
+  .engP {
+    font-family: "pr";
     color: #fff;
-    font-size: 2vw;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    margin: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .engP{
+      font-size: 17px;
+      line-height: 17px;
+    }
+  }
+
+  .ru {
+    font-family: "prit";
   }
 
   @media (max-width: 900px) {
@@ -165,11 +234,7 @@
   }
 
   .eng {
-    padding: 20px;
-    font-family: "semibold";
-    color: #fff;
-    font-size: 2vw;
-    text-align: end;
+    font-family: "pr";
   }
 
   @media (max-width: 900px) {
