@@ -167,27 +167,31 @@ Vas.addEventListener('mouseout', function(){
   main.style.backgroundColor = "white";
 })
 
+// window.screen.width > 600
 
-function transformScroll(event) {
-    if (!event.deltaY) {
-      return;
+// if (window.screen.width > 1000) {
+
+    function transformScroll(event) {
+      if (!event.deltaY) {
+        return;
+      }
+    
+      event.currentTarget.scrollLeft += event.deltaY + event.deltaX;
+      event.preventDefault();
     }
-  
-    event.currentTarget.scrollLeft += event.deltaY + event.deltaX;
-    event.preventDefault();
-  }
-  
-  var element = document.scrollingElement || document.documentElement;
-  element.addEventListener('wheel', transformScroll);
+    
+    var element = document.scrollingElement || document.documentElement;
+    element.addEventListener('wheel', transformScroll);
+// }
 
-  function myFunction() {
+function myFunction() {
     var x = document.getElementById("b2");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
       x.style.display = "none";
     }
-  }
+}
 
 
 

@@ -21,12 +21,28 @@
     overflow-y: hidden;
   }
 
+  @media (max-width: 500px) {
+    .container_Johanna {
+      width: 400px;
+      height: 1500px;
+      /* overflow-y: scroll; */
+    }    
+  }
+
   .container_Nazira {
     /* padding: 20px; */
     width: 8000px;
     height: 100vh;
     background-color: #fff;
     overflow-y: hidden;
+  }
+
+  @media (max-width: 500px) {
+    .container_Nazira {
+      width: 400px;
+      height: 500px;
+      /* overflow-y: scroll; */
+    }    
   }
 
   .container {
@@ -37,9 +53,10 @@
     overflow-y: hidden;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .container {
-      height: 100vh;
+      width: 400px;
+      height: 500px;
       /* overflow-y: scroll; */
     }    
   }
@@ -60,13 +77,13 @@
     display: none;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .about {
       display: none;
     }    
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .about1 {
       display: flex;
       font-family: "prit";
@@ -86,7 +103,7 @@
     background: black;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .divider {
       top: 115px;
     }
@@ -117,7 +134,9 @@
     font-size: 35px;
     font-family: "semibold";
     text-align: end;
+
   }
+
 
   .aboutProject {
     display: flex;
@@ -137,12 +156,25 @@
     font-family: "semibold";
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
+    .aboutProject{
+      top: 115px;
+      width: 360px;
+      height: 100vh;
+      font-size: 25px;
+      line-height: 30px;
+      margin-right: 100px;
+    }
+  }
+
+  @media (max-width: 500px) {
     .people{
       top: 115px;
       width: 380px;
+      height: 1200px;
       font-size: 25px;
       line-height: 30px;
+      margin-right: 100px;
     }
   }
 
@@ -153,9 +185,23 @@
     height: 100vh;
   }
 
+  @media (max-width: 500px) {
+    .main{
+      display: none;
+      width: 400px;
+      height: 700px;
+    }
+  }
+
   .logoC{
     display: flex;
     flex-direction: row;
+  }
+
+  @media (max-width: 500px) {
+    .logoC{
+      flex-direction: column;
+    }
   }
 
   .logo{
@@ -165,7 +211,7 @@
     padding-right: 240px;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .logo{
       margin-top: 35px;
       width: 250vw;
@@ -180,9 +226,9 @@
     background-color:black;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .pressC{
-      margin-left: -400px;
+      margin-left: -420px;
       top: 95px;
       width: 400px;
       font-size: 20px;
@@ -200,7 +246,7 @@
     margin: 20px;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .ruP{
       font-size: 17px;
       line-height: 17px;
@@ -215,7 +261,7 @@
     margin: 20px;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .engP{
       font-size: 17px;
       line-height: 17px;
@@ -224,12 +270,14 @@
 
   .ru {
     font-family: "prit";
+    margin-top: 20px;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .ru{
       font-size: 17px;
       line-height: 17px;
+      margin-right: 20px;
     }
   }
 
@@ -237,10 +285,11 @@
     font-family: "pr";
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .eng{
       font-size: 17px;
       line-height: 17px;
+      margin-right: 20px;
     }
   }
 
@@ -267,6 +316,11 @@
     cursor: default;
   }
 
+@media (max-width: 500px) {
+  #name {
+    margin-right: 20px;  
+  }
+}
 
   .project {
     display: flex;
@@ -304,7 +358,7 @@
   width: 200px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .back-img {
     width: 150px;
   }

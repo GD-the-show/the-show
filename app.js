@@ -1,4 +1,10 @@
 let body = document.body;
+let back = document.querySelector('.aboutProject');
+let main = document.querySelector('.container');
+
+// back.style.backgroundColor = "rgb(176, 228, 250)";
+// main.style.backgroundColor = "rgb(176, 228, 250)";
+
 
 function transformScroll(event) {
     if (!event.deltaY) {
@@ -20,4 +26,5 @@ function transformScroll(event) {
       x.style.display = "none";
     }
   }
+
 
