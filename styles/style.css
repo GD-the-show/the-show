@@ -196,6 +196,8 @@
   .logoC{
     display: flex;
     flex-direction: row;
+    /* overflow: auto; */
+    -webkit-overflow-scrolling: touch;
   }
 
   @media (max-width: 500px) {
